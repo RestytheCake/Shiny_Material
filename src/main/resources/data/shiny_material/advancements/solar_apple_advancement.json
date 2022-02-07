@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "shiny_material:solar_apple"
+    },
+    "title": {
+      "translate": "advancements.solar_apple_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.solar_apple_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "solar_apple_advancement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "shiny_material:solar_apple"
+        }
+      }
+    }
+  },
+  "parent": "shiny_material:welcometo_shiny_world"
+}

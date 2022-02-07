@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SolarDust"
+      },
+      {
+        "value": "CUSTOM:SolarDust"
+      },
+      {
+        "value": "CUSTOM:SolarDust"
+      },
+      {
+        "value": "CUSTOM:SolarDust"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#0"
+      },
+      {
+        "value": "CUSTOM:SolarDust"
+      },
+      {
+        "value": "CUSTOM:SolarDust"
+      },
+      {
+        "value": "CUSTOM:SolarDust"
+      },
+      {
+        "value": "CUSTOM:SolarDust"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SolarApple"
+    },
+    "name": "solar_apple_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "solar_apple",
+    "customModelName": "Normal",
+    "name": "Solar Apple",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "Shiny Material gives Shiny Effects"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ShinyMaterial"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 7,
+    "saturation": 2.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

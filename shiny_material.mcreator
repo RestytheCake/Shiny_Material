@@ -1,0 +1,88 @@
+{
+  "mod_elements": [
+    {
+      "name": "WelcometoShinyWorld",
+      "type": "achievement",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welcometo_shiny_world"
+    },
+    {
+      "name": "SolarDust",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_dust"
+    },
+    {
+      "name": "ShinyMaterial",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shiny_material"
+    },
+    {
+      "name": "SolarApple",
+      "type": "food",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_apple"
+    },
+    {
+      "name": "SolarAppleRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_apple_recipe"
+    },
+    {
+      "name": "SolarAppleAdvancement",
+      "type": "achievement",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_apple_advancement"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.shiny_material.solar_apple": "Solar Apple",
+      "item.easy_items.solar_dust": "Solar Dust",
+      "advancements.welcometo_shiny_world.title": "Welcome to Shiny World",
+      "advancements.solar_apple_advancement.descr": "Eat a Shiny Solar Apple",
+      "advancements.welcometo_shiny_world.descr": "Start a World with EasyItems to Get Shiny new Ores",
+      "item.shiny_material.solar_dust": "Solar Dust",
+      "itemGroup.tabshiny_material": "Shiny Material",
+      "advancements.solar_apple_advancement.title": "Solar Apple Advancement"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "shiny_material",
+    "modName": "Shiny Material",
+    "version": "0.3",
+    "description": "Shiny Material for Minecraft",
+    "author": "Morganischkalt",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.morganischkalt.shinymaterial",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}
