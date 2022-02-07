@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "shiny_material:items/rainbow_pyrite_helmet"
+  }
+}

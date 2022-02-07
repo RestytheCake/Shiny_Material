@@ -47,20 +47,159 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "solar_apple_advancement"
+    },
+    {
+      "name": "SolarIngot",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_ingot"
+    },
+    {
+      "name": "SolarIngotRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_ingot_recipe"
+    },
+    {
+      "name": "BarelyHot",
+      "type": "achievement",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barely_hot"
+    },
+    {
+      "name": "ItsNotHotAtAll",
+      "type": "achievement",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "its_not_hot_at_all"
+    },
+    {
+      "name": "SolarOre",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_ore"
+    },
+    {
+      "name": "TeleportToNetherCommandExecuted",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport_to_nether_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TeleportToSurfaceCommandExecuted",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport_to_surface_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TeleportToSurface",
+      "type": "command",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport_to_surface"
+    },
+    {
+      "name": "TeleportToNether",
+      "type": "command",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport_to_nether"
+    },
+    {
+      "name": "SolarArmor",
+      "type": "armor",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "SolarSword",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_sword"
+    },
+    {
+      "name": "SolarPickaxe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_pickaxe"
+    },
+    {
+      "name": "SolarAxe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_axe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.shiny_material.solar_sword": "Solar Sword",
       "item.shiny_material.solar_apple": "Solar Apple",
       "item.easy_items.solar_dust": "Solar Dust",
-      "advancements.welcometo_shiny_world.title": "Welcome to Shiny World",
-      "advancements.solar_apple_advancement.descr": "Eat a Shiny Solar Apple",
+      "advancements.its_not_hot_at_all.title": "Its Not Hot At All",
+      "advancements.barely_hot.title": "Barely Hot",
+      "item.shiny_material.solar_armor_helmet": "Solar Helmet",
+      "item.shiny_material.solar_armor_leggings": "Solar Leggings",
+      "advancements.barely_hot.descr": "Get your First Solar Dust from the Nether",
       "advancements.welcometo_shiny_world.descr": "Start a World with EasyItems to Get Shiny new Ores",
       "item.shiny_material.solar_dust": "Solar Dust",
       "itemGroup.tabshiny_material": "Shiny Material",
-      "advancements.solar_apple_advancement.title": "Solar Apple Advancement"
+      "block.shiny_material.solar_ore": "Solar Ore",
+      "item.shiny_material.solar_armor_chestplate": "Solar Chestplate",
+      "item.shiny_material.solar_axe": "Solar Axe",
+      "advancements.welcometo_shiny_world.title": "Welcome to Shiny World",
+      "item.shiny_material.solar_pickaxe": "Solar Pickaxe",
+      "advancements.solar_apple_advancement.descr": "Eat a Shiny Solar Apple",
+      "item.shiny_material.solar_armor_boots": "Solar Boots",
+      "advancements.solar_apple_advancement.title": "Better than Golden Apple\u0027s",
+      "item.shiny_material.solar_ingot": "Solar Ingot",
+      "advancements.its_not_hot_at_all.descr": "Craft your first Solar Ingot from 9 Solar Dust"
     }
   },
   "foldersRoot": {
@@ -73,7 +212,8 @@
     "version": "0.3",
     "description": "Shiny Material for Minecraft",
     "author": "Morganischkalt",
-    "license": "All Rights Reserved",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -81,6 +221,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
+    "credits": "Morgan",
     "modElementsPackage": "net.morganischkalt.shinymaterial",
     "lockBaseModFiles": false
   },

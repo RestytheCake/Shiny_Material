@@ -1,12 +1,12 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="All Rights Reserved"
+license="MIT License"
 
 [[mods]]
 modId="shiny_material"
 version="0.3"
 displayName="Shiny Material"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="Morgan"
 displayURL="https://mcreator.net"
 authors="Morganischkalt"
 description='''
