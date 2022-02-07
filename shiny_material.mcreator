@@ -213,6 +213,46 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "solar_axe_recipe"
+    },
+    {
+      "name": "SolarChestplateRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_chestplate_recipe"
+    },
+    {
+      "name": "SolarHelmetRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_helmet_recipe"
+    },
+    {
+      "name": "SolarLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_leggings_recipe"
+    },
+    {
+      "name": "SolarBootsRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_boots_recipe"
+    },
+    {
+      "name": "BurningRod",
+      "type": "achievement",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burning_rod"
     }
   ],
   "variable_elements": [],
@@ -220,26 +260,28 @@
   "language_map": {
     "en_us": {
       "item.shiny_material.solar_sword": "Solar Sword",
-      "item.shiny_material.solar_apple": "Solar Apple",
-      "item.easy_items.solar_dust": "Solar Dust",
-      "advancements.its_not_hot_at_all.title": "Its Not Hot At All",
       "advancements.barely_hot.title": "Barely Hot",
-      "item.shiny_material.solar_armor_helmet": "Solar Helmet",
-      "item.shiny_material.solar_armor_leggings": "Solar Leggings",
       "advancements.barely_hot.descr": "Get your First Solar Dust from the Nether",
-      "item.shiny_material.diamond_rod": "Diamond Rod",
-      "advancements.welcometo_shiny_world.descr": "Start a World with EasyItems to Get Shiny new Ores",
-      "item.shiny_material.solar_dust": "Solar Dust",
       "itemGroup.tabshiny_material": "Shiny Material",
       "block.shiny_material.solar_ore": "Solar Ore",
       "item.shiny_material.solar_armor_chestplate": "Solar Chestplate",
-      "item.shiny_material.solar_axe": "Solar Axe",
       "advancements.welcometo_shiny_world.title": "Welcome to Shiny World",
-      "item.shiny_material.solar_pickaxe": "Solar Pickaxe",
       "advancements.solar_apple_advancement.descr": "Eat a Shiny Solar Apple",
       "item.shiny_material.solar_armor_boots": "Solar Boots",
       "advancements.solar_apple_advancement.title": "Better than Golden Apple\u0027s",
       "item.shiny_material.solar_ingot": "Solar Ingot",
+      "item.shiny_material.solar_apple": "Solar Apple",
+      "item.easy_items.solar_dust": "Solar Dust",
+      "advancements.its_not_hot_at_all.title": "Its Not Hot At All",
+      "advancements.burning_rod.descr": "Craft a Solar Sword ",
+      "item.shiny_material.solar_armor_helmet": "Solar Helmet",
+      "item.shiny_material.solar_armor_leggings": "Solar Leggings",
+      "item.shiny_material.diamond_rod": "Diamond Rod",
+      "advancements.welcometo_shiny_world.descr": "Start a World with EasyItems to Get Shiny new Ores",
+      "item.shiny_material.solar_dust": "Solar Dust",
+      "advancements.burning_rod.title": "Burning Rod",
+      "item.shiny_material.solar_axe": "Solar Axe",
+      "item.shiny_material.solar_pickaxe": "Solar Pickaxe",
       "advancements.its_not_hot_at_all.descr": "Craft your first Solar Ingot from 9 Solar Dust"
     }
   },

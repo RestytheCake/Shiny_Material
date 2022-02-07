@@ -16,31 +16,31 @@
         "value": "CUSTOM:SolarIngot"
       },
       {
+        "value": "CUSTOM:SolarIngot"
+      },
+      {
+        "value": "CUSTOM:SolarIngot"
+      },
+      {
         "value": ""
       },
       {
         "value": "CUSTOM:SolarIngot"
       },
       {
-        "value": "CUSTOM:DiamondRod"
+        "value": "CUSTOM:SolarIngot"
       },
       {
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:DiamondRod"
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:SolarIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SolarAxe"
+      "value": "CUSTOM:SolarArmor.legs"
     },
-    "name": "solar_axe_recipe",
+    "name": "solar_leggings_recipe",
     "namespace": "mod"
   }
 }

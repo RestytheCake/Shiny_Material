@@ -16,31 +16,31 @@
         "value": "CUSTOM:SolarIngot"
       },
       {
+        "value": "CUSTOM:SolarIngot"
+      },
+      {
+        "value": "CUSTOM:SolarIngot"
+      },
+      {
         "value": ""
       },
       {
         "value": "CUSTOM:SolarIngot"
       },
       {
-        "value": "CUSTOM:DiamondRod"
-      },
-      {
         "value": ""
       },
       {
         "value": ""
-      },
-      {
-        "value": "CUSTOM:DiamondRod"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SolarAxe"
+      "value": "CUSTOM:SolarArmor.helmet"
     },
-    "name": "solar_axe_recipe",
+    "name": "solar_helmet_recipe",
     "namespace": "mod"
   }
 }

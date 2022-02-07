@@ -10,6 +10,21 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SolarIngot"
+      },
+      {
+        "value": ""
+      },
+      {
         "value": "CUSTOM:SolarIngot"
       },
       {
@@ -20,27 +35,12 @@
       },
       {
         "value": "CUSTOM:SolarIngot"
-      },
-      {
-        "value": "CUSTOM:DiamondRod"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:DiamondRod"
-      },
-      {
-        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SolarAxe"
+      "value": "CUSTOM:SolarArmor.boots"
     },
-    "name": "solar_axe_recipe",
+    "name": "solar_boots_recipe",
     "namespace": "mod"
   }
 }

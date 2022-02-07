@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01",
-    "23",
-    " 5"
+    "012",
+    "3 5",
+    "6 8"
   ],
   "key": {
     "0": {
@@ -16,14 +16,20 @@
       "item": "shiny_material:solar_ingot"
     },
     "3": {
-      "item": "shiny_material:diamond_rod"
+      "item": "shiny_material:solar_ingot"
     },
     "5": {
-      "item": "shiny_material:diamond_rod"
+      "item": "shiny_material:solar_ingot"
+    },
+    "6": {
+      "item": "shiny_material:solar_ingot"
+    },
+    "8": {
+      "item": "shiny_material:solar_ingot"
     }
   },
   "result": {
-    "item": "shiny_material:solar_axe",
+    "item": "shiny_material:solar_armor_leggings",
     "count": 1
   }
 }
