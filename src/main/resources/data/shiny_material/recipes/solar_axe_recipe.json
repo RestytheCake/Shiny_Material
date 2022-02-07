@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "shiny_material:solar_ingot"
+    },
+    {
+      "item": "shiny_material:solar_ingot"
+    },
+    {
+      "item": "shiny_material:solar_ingot"
+    },
+    {
+      "item": "shiny_material:diamond_rod"
+    },
+    {
+      "item": "shiny_material:diamond_rod"
+    }
+  ],
+  "result": {
+    "item": "shiny_material:solar_axe",
+    "count": 1
+  }
+}

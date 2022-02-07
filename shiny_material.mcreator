@@ -173,6 +173,46 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "solar_axe"
+    },
+    {
+      "name": "DiamondRod",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_rod"
+    },
+    {
+      "name": "DiamondRodRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_rod_recipe"
+    },
+    {
+      "name": "SolarSwordRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_sword_recipe"
+    },
+    {
+      "name": "SolarPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_pickaxe_recipe"
+    },
+    {
+      "name": "SolarAxeRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_axe_recipe"
     }
   ],
   "variable_elements": [],
@@ -187,6 +227,7 @@
       "item.shiny_material.solar_armor_helmet": "Solar Helmet",
       "item.shiny_material.solar_armor_leggings": "Solar Leggings",
       "advancements.barely_hot.descr": "Get your First Solar Dust from the Nether",
+      "item.shiny_material.diamond_rod": "Diamond Rod",
       "advancements.welcometo_shiny_world.descr": "Start a World with EasyItems to Get Shiny new Ores",
       "item.shiny_material.solar_dust": "Solar Dust",
       "itemGroup.tabshiny_material": "Shiny Material",
