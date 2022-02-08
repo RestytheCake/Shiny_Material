@@ -58,8 +58,27 @@ minecraft {
     }
 }
 
+repositories {
+    maven {
+        name = "Progwml6"
+        url = "https://dvs1.progwml6.com/files/maven"
+    }
+    maven {
+        name = "ModMaven"
+        url = "https://modmaven.k-4u.nl"
+    }
+    maven {
+        url = "https://maven.theillusivec4.top/"
+    }
+}
+
+
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.20'
+    runtimeOnly fg.deobf("mezz.jei:jei-1.16.5:7.7.1.121")
+    compileOnly fg.deobf("mezz.jei:jei-1.16.5:7.7.1.121:api")
+    runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.16.5-4.0.5.2")
+    compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.16.5-4.0.5.2:api")
 
     // Apply for https://github.com/McModLauncher/modlauncher/issues/91
     implementation 'cpw.mods:modlauncher:8.1.3'

@@ -253,6 +253,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "burning_rod"
+    },
+    {
+      "name": "HotCastle",
+      "type": "structure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_castle"
     }
   ],
   "variable_elements": [],
