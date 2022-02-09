@@ -21,3 +21,9 @@ Minecraft Mod by Resty aka. Morganischkalt
 
 **Solar Axe**
 >Lots of Durability
+
+
+**Update 0.4**
+Changed Solar Ore Texture
+Added Hot Castle Structure to the Nether
+Spawns only on Soul Soil
