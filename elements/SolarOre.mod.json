@@ -2,19 +2,19 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "solar_ore",
-    "textureTop": "solar_ore",
-    "textureLeft": "solar_ore",
-    "textureFront": "solar_ore",
-    "textureRight": "solar_ore",
-    "textureBack": "solar_ore",
+    "texture": "blackstone_solar_ore",
+    "textureTop": "blackstone_solar_ore",
+    "textureLeft": "blackstone_solar_ore",
+    "textureFront": "blackstone_solar_ore",
+    "textureRight": "blackstone_solar_ore",
+    "textureBack": "blackstone_solar_ore",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "solar_ore",
+    "particleTexture": "blackstone_solar_ore",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -53,7 +53,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "Blocks.GILDED_BLACKSTONE"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -67,7 +67,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -117,17 +117,17 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.NETHER_GOLD_ORE"
-      },
-      {
         "value": "Blocks.GRAVEL"
       },
       {
         "value": "Blocks.NETHERRACK"
+      },
+      {
+        "value": "Blocks.SOUL_SOIL"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 5,
+    "frequencyPerChunks": 7,
+    "frequencyOnChunk": 3,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }

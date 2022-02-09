@@ -10,9 +10,9 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 
-version = '1.0'
-group = 'com.yourname.modid'
-archivesBaseName = 'modid'
+version = '0.4'
+group = 'com.morganischkalt.shinymaterial'
+archivesBaseName = 'shinymaterial'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(8)
 
