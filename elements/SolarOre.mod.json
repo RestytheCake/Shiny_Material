@@ -126,8 +126,8 @@
         "value": "Blocks.SOUL_SOIL"
       }
     ],
-    "frequencyPerChunks": 7,
-    "frequencyOnChunk": 3,
+    "frequencyPerChunks": 15,
+    "frequencyOnChunk": 5,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }
