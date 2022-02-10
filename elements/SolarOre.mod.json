@@ -33,7 +33,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:SolarDust"
+      "value": "CUSTOM:SolarPowder"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

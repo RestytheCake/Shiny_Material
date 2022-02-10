@@ -261,6 +261,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "hot_castle"
+    },
+    {
+      "name": "SolarPowder",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_powder"
+    },
+    {
+      "name": "SolarDustRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_dust_recipe"
     }
   ],
   "variable_elements": [],
@@ -287,6 +303,7 @@
       "item.shiny_material.diamond_rod": "Diamond Rod",
       "advancements.welcometo_shiny_world.descr": "Start a World with EasyItems to Get Shiny new Ores",
       "item.shiny_material.solar_dust": "Solar Dust",
+      "item.shiny_material.solar_powder": "Solar Powder",
       "advancements.burning_rod.title": "Burning Rod",
       "item.shiny_material.solar_axe": "Solar Axe",
       "item.shiny_material.solar_pickaxe": "Solar Pickaxe",

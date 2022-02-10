@@ -2,7 +2,7 @@
 package net.morganischkalt.shinymaterial.block;
 
 import net.morganischkalt.shinymaterial.itemgroup.ShinyMaterialItemGroup;
-import net.morganischkalt.shinymaterial.item.SolarDustItem;
+import net.morganischkalt.shinymaterial.item.SolarPowderItem;
 import net.morganischkalt.shinymaterial.ShinyMaterialModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -110,7 +110,7 @@ public class SolarOreBlock extends ShinyMaterialModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(SolarDustItem.block));
+			return Collections.singletonList(new ItemStack(SolarPowderItem.block));
 		}
 	}
 
