@@ -85,7 +85,7 @@
       "type": "block",
       "sortid": 11,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "solar_ore"
     },
     {
@@ -277,6 +277,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "solar_dust_recipe"
+    },
+    {
+      "name": "SolarAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_apple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SolarOreTest",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_ore_test"
     }
   ],
   "variable_elements": [],
@@ -284,6 +308,7 @@
   "language_map": {
     "en_us": {
       "item.shiny_material.solar_sword": "Solar Sword",
+      "block.shiny_material.solar_ore_test": "Solar Ore Test",
       "advancements.barely_hot.title": "Barely Hot",
       "advancements.barely_hot.descr": "Get your First Solar Dust from the Nether",
       "itemGroup.tabshiny_material": "Shiny Material",
@@ -317,10 +342,10 @@
   "workspaceSettings": {
     "modid": "shiny_material",
     "modName": "Shiny Material",
-    "version": "0.3",
+    "version": "0.4",
     "description": "Shiny Material for Minecraft",
     "author": "Morganischkalt",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://RestytheCake.github.io",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,

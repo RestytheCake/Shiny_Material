@@ -33,7 +33,7 @@ public class SolarSwordItem extends ShinyMaterialModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 31f;
+				return 35.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,7 +47,7 @@ public class SolarSwordItem extends ShinyMaterialModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(SolarIngotItem.block));
 			}
-		}, 3, -2.7999999999999998f, new Item.Properties().group(ShinyMaterialItemGroup.tab).isImmuneToFire()) {
+		}, 3, -2.7000000000000002f, new Item.Properties().group(ShinyMaterialItemGroup.tab).isImmuneToFire()) {
 		}.setRegistryName("solar_sword"));
 	}
 }

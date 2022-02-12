@@ -18,6 +18,12 @@
     "restrictionBlocks": [
       {
         "value": "Blocks.SOUL_SOIL"
+      },
+      {
+        "value": "Blocks.NETHERRACK"
+      },
+      {
+        "value": "Blocks.SOUL_SAND"
       }
     ],
     "restrictionBiomes": [],

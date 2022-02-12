@@ -2,29 +2,39 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "blackstone_solar_ore",
-    "textureTop": "blackstone_solar_ore",
-    "textureLeft": "blackstone_solar_ore",
-    "textureFront": "blackstone_solar_ore",
-    "textureRight": "blackstone_solar_ore",
-    "textureBack": "blackstone_solar_ore",
+    "texture": "solar_ore",
+    "textureTop": "solar_ore",
+    "textureLeft": "solar_ore",
+    "textureFront": "solar_ore",
+    "textureRight": "solar_ore",
+    "textureBack": "solar_ore",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "blackstone_solar_ore",
+    "particleTexture": "solar_ore",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
-    "boundingBoxes": [],
-    "name": "Solar Ore",
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Solar Ore Test",
     "specialInfo": [],
-    "hardness": 50.0,
+    "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -53,12 +63,12 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "Blocks.GILDED_BLACKSTONE"
+      "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
-    "fireSpreadSpeed": 8,
+    "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
     "speedFactor": 1.0,
@@ -117,17 +127,11 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.GRAVEL"
-      },
-      {
         "value": "Blocks.NETHERRACK"
-      },
-      {
-        "value": "Blocks.SOUL_SOIL"
       }
     ],
-    "frequencyPerChunks": 15,
-    "frequencyOnChunk": 5,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }

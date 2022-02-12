@@ -26,19 +26,13 @@ import net.minecraft.world.ISeedReader;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.registry.WorldGenRegistries;
 import net.minecraft.util.registry.Registry;
-import net.minecraft.util.math.shapes.VoxelShapes;
-import net.minecraft.util.math.shapes.VoxelShape;
-import net.minecraft.util.math.shapes.ISelectionContext;
-import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
-import net.minecraft.util.Direction;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Blocks;
@@ -50,12 +44,12 @@ import java.util.List;
 import java.util.Collections;
 
 @ShinyMaterialModElements.ModElement.Tag
-public class SolarOreBlock extends ShinyMaterialModElements.ModElement {
-	@ObjectHolder("shiny_material:solar_ore")
+public class SolarOreTestBlock extends ShinyMaterialModElements.ModElement {
+	@ObjectHolder("shiny_material:solar_ore_test")
 	public static final Block block = null;
 
-	public SolarOreBlock(ShinyMaterialModElements instance) {
-		super(instance, 11);
+	public SolarOreTestBlock(ShinyMaterialModElements instance) {
+		super(instance, 32);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -69,9 +63,9 @@ public class SolarOreBlock extends ShinyMaterialModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(50f, 10f).setLightLevel(s -> 0).harvestLevel(4)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(4)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("solar_ore");
+			setRegistryName("solar_ore_test");
 		}
 
 		@Override
@@ -98,11 +92,7 @@ public class SolarOreBlock extends ShinyMaterialModElements.ModElement {
 
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == Blocks.GRAVEL)
-				blockCriteria = true;
 			if (blockAt.getBlock() == Blocks.NETHERRACK)
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.SOUL_SOIL)
 				blockCriteria = true;
 			return blockCriteria;
 		}
@@ -115,7 +105,8 @@ public class SolarOreBlock extends ShinyMaterialModElements.ModElement {
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("shiny_material:solar_ore_match"), () -> CustomRuleTest.codec);
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("shiny_material:solar_ore_test_match"),
+					() -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
@@ -128,10 +119,10 @@ public class SolarOreBlock extends ShinyMaterialModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 5)).range(64)
-					.square().func_242731_b(15);
-			event.getRegistry().register(feature.setRegistryName("solar_ore"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("shiny_material:solar_ore"), configuredFeature);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 16)).range(64)
+					.square().func_242731_b(10);
+			event.getRegistry().register(feature.setRegistryName("solar_ore_test"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("shiny_material:solar_ore_test"), configuredFeature);
 		}
 	}
 

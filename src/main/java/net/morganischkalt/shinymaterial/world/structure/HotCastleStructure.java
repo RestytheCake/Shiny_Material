@@ -63,6 +63,10 @@ public class HotCastleStructure {
 							boolean blockCriteria = false;
 							if (blockAt.getBlock() == Blocks.SOUL_SOIL)
 								blockCriteria = true;
+							if (blockAt.getBlock() == Blocks.NETHERRACK)
+								blockCriteria = true;
+							if (blockAt.getBlock() == Blocks.SOUL_SAND)
+								blockCriteria = true;
 							if (!blockCriteria)
 								continue;
 							Rotation rotation = Rotation.values()[random.nextInt(3)];

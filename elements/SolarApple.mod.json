@@ -23,6 +23,9 @@
     "forDogs": false,
     "isAlwaysEdible": true,
     "animation": "eat",
-    "hasGlow": false
+    "hasGlow": false,
+    "onEaten": {
+      "name": "SolarAppleFoodEaten"
+    }
   }
 }

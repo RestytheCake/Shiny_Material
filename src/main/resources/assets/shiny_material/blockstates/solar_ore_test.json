@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "shiny_material:block/solar_ore_test"
+    }
+  }
+}

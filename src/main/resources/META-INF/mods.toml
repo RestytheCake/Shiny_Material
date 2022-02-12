@@ -4,10 +4,10 @@ license="MIT License"
 
 [[mods]]
 modId="shiny_material"
-version="0.3"
+version="0.4"
 displayName="Shiny Material"
 credits="Morgan"
-displayURL="https://mcreator.net"
+displayURL="https://RestytheCake.github.io"
 authors="Morganischkalt"
 description='''
 Shiny Material for Minecraft
