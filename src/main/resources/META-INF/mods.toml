@@ -1,0 +1,15 @@
+modLoader="javafml"
+loaderVersion="[38,)"
+license="MIT"
+
+[[mods]]
+modId="shiny_material"
+version="0.4"
+displayName="Shiny Material"
+logoFile="logo.png"
+credits=""
+authors="Morganischkalt"
+description='''
+A tutorial mod for Minecraft 1.18!
+
+'''

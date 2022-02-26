@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "shiny_material:items/solar_dust"
+  }
+}

@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "shinymaterial:block/example_chest" },
+		"facing=south": { "model": "shinymaterial:block/example_chest", "y": 180 },
+		"facing=west": { "model": "shinymaterial:block/example_chest", "y": 270 },
+		"facing=east": { "model": "shinymaterial:block/example_chest", "y": 90 }
+	}
+}

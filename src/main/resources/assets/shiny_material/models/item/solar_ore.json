@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "all": "shiny_material:blocks/solar_ore"
+  }
+
+}

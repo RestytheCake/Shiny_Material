@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "front": "shiny_material:blocks/example_chest_front",
+        "side": "shiny_material:blocks/example_chest_side",
+        "top": "shiny_material:blocks/example_chest_top"
+    }
+}

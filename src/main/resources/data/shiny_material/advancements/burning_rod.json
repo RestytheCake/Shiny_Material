@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "shiny_material:solar_sword"
+    },
+    "title": {
+      "translate": "advancements.burning_rod.title"
+    },
+    "description": {
+      "translate": "advancements.burning_rod.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "burning_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "shiny_material:solar_sword",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "shiny_material:its_not_hot_at_all"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "easyitems:solar_dust"
+    }
+  },
+
+  "result": {
+    "item": "easyitems:solar_block"
+  }
+}

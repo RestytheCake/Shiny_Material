@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "shinymaterial:solar_ore"
+  },
+  "result": "shinymaterial:solar_dust",
+  "experience": 4.0,
+  "cookingtime": 350
+}
