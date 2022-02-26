@@ -1,4 +1,29 @@
 {
-  "block.shiny_material.solar_ore": "Solar Ore",
-  "item.shiny_material.solar_dust": "Solar Dust"
-}
+	"item.shiny_material.solar_sword": "Solar Schwert",
+	"block.shiny_material.solar_ore_test": "Solar Erz Test",
+	"advancements.barely_hot.title": "Kaum Heiß",
+	"advancements.barely_hot.descr": "Bekomme dein Ertses Solar Staub aus dem Nether",
+	"itemGroup.tabshiny_material": "Shiny Material",
+	"block.shiny_material.solar_ore": "Solar Erz",
+	"item.shiny_material.solar_armor_chestplate": "Solar Brustplatte",
+	"advancements.welcometo_shiny_world.title": "Willkommen in der Shiny Material World",
+	"advancements.solar_apple_advancement.descr": "Esse einen Solar Apfel",
+	"item.shiny_material.solar_armor_boots": "Solar Stiefel",
+	"advancements.solar_apple_advancement.title": "Besser als ein Goldbener Apfel",
+	"item.shiny_material.solar_ingot": "Solar Barren",
+	"item.shiny_material.solar_apple": "Solar Apfel",
+	"item.easy_items.solar_dust": "Solar Staub",
+	"item.shiny_material.enchanted_solar_sword": "Verzaubertes Solar Schwert",
+	"advancements.its_not_hot_at_all.title": "Garnicht mal so heiß",
+	"advancements.burning_rod.descr": "Crafte dir dein ersten Solar Schwert",
+	"item.shiny_material.solar_armor_helmet": "Solar Helm",
+	"item.shiny_material.solar_armor_leggings": "Solar Hose",
+	"item.shiny_material.diamond_rod": "Diamond Stange",
+	"advancements.welcometo_shiny_world.descr": "Start a World with EasyItems to Get Shiny new Ores",
+	"item.shiny_material.solar_dust": "Solar Dust",
+	"item.shiny_material.solar_powder": "Solar Pulver",
+	"advancements.burning_rod.title": "Brennende Stange",
+	"item.shiny_material.solar_axe": "Solar Axt",
+	"item.shiny_material.solar_pickaxe": "Solar Spitzhacke",
+	"advancements.its_not_hot_at_all.descr": "Crafte dein ersten Solar Erz von 9 Solar Staub"
+  }
