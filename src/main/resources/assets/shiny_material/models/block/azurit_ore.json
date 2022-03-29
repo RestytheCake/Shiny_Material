@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shiny_material:blocks/azurit_ore",
+    "up": "shiny_material:blocks/azurit_ore",
+    "north": "shiny_material:blocks/azurit_ore",
+    "east": "shiny_material:blocks/azurit_ore",
+    "south": "shiny_material:blocks/azurit_ore",
+    "west": "shiny_material:blocks/azurit_ore",
+    "particle": "shiny_material:blocks/azurit_ore"
+  }
+}

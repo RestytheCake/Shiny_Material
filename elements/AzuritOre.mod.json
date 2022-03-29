@@ -2,19 +2,19 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "solar_ore",
-    "textureTop": "solar_ore",
-    "textureLeft": "solar_ore",
-    "textureFront": "solar_ore",
-    "textureRight": "solar_ore",
-    "textureBack": "solar_ore",
+    "texture": "azurit_ore",
+    "textureTop": "azurit_ore",
+    "textureLeft": "azurit_ore",
+    "textureFront": "azurit_ore",
+    "textureRight": "azurit_ore",
+    "textureBack": "azurit_ore",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "solar_ore",
+    "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -32,10 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Solar Ore Test",
+    "name": "Azurit Ore",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 2.5,
+    "resistance": 15.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -43,7 +43,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:SolarPowder"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -77,7 +77,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 4,
+    "breakHarvestLevel": 5,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -122,17 +122,17 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Nether"
+      "End"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.NETHERRACK"
+        "value": "Blocks.END_STONE"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "frequencyPerChunks": 12,
+    "frequencyOnChunk": 3,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 128
   }
 }

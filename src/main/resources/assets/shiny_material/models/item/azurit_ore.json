@@ -1,5 +1,5 @@
 {
-  "parent": "shiny_material:block/solar_ore_test",
+  "parent": "shiny_material:block/azurit_ore",
   "display": {
     "thirdperson": {
       "rotation": [

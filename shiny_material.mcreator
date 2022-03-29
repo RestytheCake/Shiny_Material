@@ -295,12 +295,36 @@
       }
     },
     {
-      "name": "SolarOreTest",
-      "type": "block",
-      "sortid": 32,
+      "name": "EnchantedSolarSwordToolInHandTick",
+      "type": "procedure",
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "solar_ore_test"
+      "registry_name": "enchanted_solar_sword_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnchantedSolarSword",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_solar_sword"
+    },
+    {
+      "name": "AzuritOre",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "azurit_ore"
     }
   ],
   "variable_elements": [],
@@ -308,7 +332,7 @@
   "language_map": {
     "en_us": {
       "item.shiny_material.solar_sword": "Solar Sword",
-      "block.shiny_material.solar_ore_test": "Solar Ore Test",
+      "block.shiny_material.azurit_ore": "Azurit Ore",
       "advancements.barely_hot.title": "Barely Hot",
       "advancements.barely_hot.descr": "Get your First Solar Dust from the Nether",
       "itemGroup.tabshiny_material": "Shiny Material",
@@ -321,6 +345,7 @@
       "item.shiny_material.solar_ingot": "Solar Ingot",
       "item.shiny_material.solar_apple": "Solar Apple",
       "item.easy_items.solar_dust": "Solar Dust",
+      "item.shiny_material.enchanted_solar_sword": "Enchanted Solar Sword",
       "advancements.its_not_hot_at_all.title": "Its Not Hot At All",
       "advancements.burning_rod.descr": "Craft a Solar Sword ",
       "item.shiny_material.solar_armor_helmet": "Solar Helmet",
@@ -349,6 +374,7 @@
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "solar_dust",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

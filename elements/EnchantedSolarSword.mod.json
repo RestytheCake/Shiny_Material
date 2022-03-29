@@ -1,0 +1,36 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "enchanted_solar_sword",
+    "customModelName": "Normal",
+    "name": "Enchanted Solar Sword",
+    "specialInfo": [
+      "Stronger Solar Sword"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ShinyMaterial"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 4.0,
+    "attackSpeed": 1.5,
+    "enchantability": 3,
+    "damageVsEntity": 40.0,
+    "usageCount": 3333,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SolarIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "EnchantedSolarSwordToolInHandTick"
+    }
+  }
+}

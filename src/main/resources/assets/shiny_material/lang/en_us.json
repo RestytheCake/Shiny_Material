@@ -1,6 +1,6 @@
 {
   "item.shiny_material.solar_sword": "Solar Sword",
-  "block.shiny_material.solar_ore_test": "Solar Ore Test",
+  "block.shiny_material.azurit_ore": "Azurit Ore",
   "advancements.barely_hot.title": "Barely Hot",
   "advancements.barely_hot.descr": "Get your First Solar Dust from the Nether",
   "itemGroup.tabshiny_material": "Shiny Material",
@@ -13,6 +13,7 @@
   "item.shiny_material.solar_ingot": "Solar Ingot",
   "item.shiny_material.solar_apple": "Solar Apple",
   "item.easy_items.solar_dust": "Solar Dust",
+  "item.shiny_material.enchanted_solar_sword": "Enchanted Solar Sword",
   "advancements.its_not_hot_at_all.title": "Its Not Hot At All",
   "advancements.burning_rod.descr": "Craft a Solar Sword ",
   "item.shiny_material.solar_armor_helmet": "Solar Helmet",
